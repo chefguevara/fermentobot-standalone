@@ -116,10 +116,10 @@ export default class Fermenter extends Robot {
                 }
 
             }
-            console.log(`Reading from: ${sensorName} ${sensor.value}`);
+/*            console.log(`Reading from: ${sensorName} ${sensor.value}`);
             if (reading && reading.status) {
                 console.log(`[${reading.status}]`);
-            }
+            }*/
             this.updateDisplayQueue(sensorName, sensor.value);
 
             this.saveReading(reading);

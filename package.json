@@ -4,11 +4,13 @@
   "description": "Node app for BeerBotJS monitor tool",
   "main": "index.js",
   "dependencies": {
-    "babel-core": "^5.8.35",
-    "babel-runtime": "^5.8.20",
-    "johnny-five": "^0.9.26",
-    "moment": "^2.11.2",
-    "mongoose": "^4.5.10"
+    "babel-core": "^6.22.1",
+    "babel-runtime": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "johnny-five": "^0.10.6",
+    "moment": "^2.17.1",
+    "mongoose": "^4.8.1"
   },
   "scripts": {
     "start": "node index"
