@@ -1,0 +1,34 @@
+{
+  "name": "beerbotjs-node",
+  "version": "0.1.0",
+  "description": "Node app for BeerBotJS monitor tool",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^5.8.35",
+    "babel-runtime": "^5.8.20",
+    "johnny-five": "^0.9.26",
+    "moment": "^2.11.2",
+    "mongoose": "^4.5.10"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chefguevara/beerbotjs-node.git"
+  },
+  "keywords": [
+    "Beer",
+    "Bot",
+    "JS",
+    "javascript",
+    "johnny-five",
+    "iot"
+  ],
+  "author": "Marcos Tomatti <marcos@masbirra.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chefguevara/beerbotjs-node/issues"
+  },
+  "homepage": "https://github.com/chefguevara/beerbotjs-node#readme"
+}

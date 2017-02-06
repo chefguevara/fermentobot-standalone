@@ -1,0 +1,11 @@
+const profileStatus = {
+    IN_RANGE: 'IN_RANGE',
+    COOLER_ON: 'COOLER_ON',
+    COOLING: 'COOLING',
+    COOLER_OFF: 'COOLER_OFF',
+    HEATER_ON: 'HEATER_ON',
+    HEATING: 'HEATING',
+    HEATER_OFF: 'HEATER_OFF',
+    WAITING_FOR_COMPRESSOR: 'WAITING_FOR_COMPRESSOR'
+};
+export default profileStatus;
