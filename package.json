@@ -11,7 +11,7 @@
     "mongoose": "^4.5.10"
   },
   "scripts": {
-    "test": "karma start"
+    "start": "node index"
   },
   "repository": {
     "type": "git",

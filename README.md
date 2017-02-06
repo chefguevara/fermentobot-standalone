@@ -1,5 +1,4 @@
-# beerbotjs-node
-
+# fermentobot standalone version
 ## Getting Started
 
 ### Prerequisites
@@ -12,9 +11,12 @@
 1. Run `$ npm install` to install server dependencies.
 
 2. Run the following lines:
-    `$ sudo usermod -a -G dialout &lt;username&gt;`
-    `$ sudo chmod a+rw /dev/ttyACM0`
-    Where &lt;username&gt; is your linux user name, /dev/ttyACM0 is the detected device of your Arduino board, depending on your system it may change.
+
+`$ sudo usermod -a -G dialout <username>`
+
+`$ sudo chmod a+rw /dev/ttyACM0`
+    
+Where `<username>` is your linux user name, /dev/ttyACM0 is the detected device of your Arduino board, depending on your system it may change.
 3. Configure the devices, profiles and environment variables.
 
 4. Run `$ npm start`
@@ -23,10 +25,8 @@
   - using example file: conf/devicesConf.js. Define the sensors your robot will have.
   - create the fermenter profiles on conf/robotProfiles.js pointing to the devices created previously.
   - make sure the following environment variables are properly set: 
-    - HOST
-    - PORT
-    - APP_SECRET
     - APP_ID
+    - MONGOLAB_URI
 
 ## Testing
 
